@@ -1,24 +1,19 @@
-/* .navigationCenter {
-	position: absolute;
-	margin: auto 10px;
-	max-height: fit-content;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	padding: 30px;
-	border: 5px solid red;
+.instructions {
+  max-width: 500px;
+  text-align: center;
 }
 
-.innerNav {
-	margin: 0 auto;
-	max-width: fit-content;
-	height: fit-content;
-	padding: 30px;
-	position: relative;
-	border: 5px solid blue;
+.verbHeading {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
 }
 
-.accountButtons {
+.verbInput {
+  height: 150px;
+  text-align: center;
+}
 
-} */
+.verbInput label {
+  font-size: 1.25em;
+}

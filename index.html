@@ -17,33 +17,86 @@
   </head>
 
   <body>
-    <div class="container">
+    <header class="container">
       <h1 class="display-4">Principal parts practice!</h1>
-
       <p class="lead text-center">
         Someday you will be able to practice memorizing the principle parts of
         Latin verbs here :)
       </p>
+    </header>
 
-      <div class="row">
-        <div class="col-3 border">I</div>
-        <div class="col-3 border">II</div>
-        <div class="col-3 border">III</div>
-        <div class="col-3 border">IV</div>
-      </div>
-
-      <div class="row">
-        <div class="col-4"></div>
-        <div class="col-4 border border-top-0">Irregular</div>
-        <div class="col-4"></div>
-      </div>
-
-      <div class="row">
-        <div class="col">
-          <button type="button" class="btn btn-primary">Login</button>
-          <button type="button" class="btn btn-secondary">Sign Up</button>
+    <main class="container">
+      <h2 class="text-center text-uppercase font-weight-light">
+        /Instructions/
+      </h2>
+      <p class="text-center">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
+        repellendus rerum mollitia, odit minus eos quasi ipsa culpa? Provident
+        reiciendis, vel ex alias nulla eligendi beatae cumque nobis est
+        incidunt. Quidem deleniti corrupti, quod ad architecto quos quibusdam
+        iusto vero dolor id voluptates doloribus in quia debitis magnam
+        similique assumenda facilis suscipit praesentium ratione. Nesciunt optio
+        vitae repellendus quidem alias.
+      </p>
+      <!-- TODO: not sure if form-group should go here* -->
+      <form action="#" class="form-group">
+        <div class="row">
+          <div class="col-3 border border-bottom-0 verbHeading">I</div>
+          <div class="col-3 border border-bottom-0 verbHeading">II</div>
+          <div class="col-3 border border-bottom-0 verbHeading">III</div>
+          <div class="col-3 border border-bottom-0 verbHeading">IV</div>
         </div>
-      </div>
-    </div>
+
+        <div class="row">
+          <!-- first conjugation -->
+          <div class="col-3 border verbInput" id="con1">
+            <label for="first" class="">/verb/</label>
+            <input type="text" class="form-control" id="first" />
+          </div>
+          <!-- second conjugation -->
+          <div class="col-3 border verbInput" id="con2">
+            <label for="second" class="">/verb/</label>
+            <input type="text" class="form-control" id="second" />
+          </div>
+          <!-- third conjugation -->
+          <div class="col-3 border verbInput" id="con3">
+            <label for="third" class="">/verb/</label>
+            <input type="text" class="form-control" id="third" />
+          </div>
+          <!-- fourth conjugation -->
+          <div class="col-3 border verbInput" id="con4">
+            <label for="fourth" class="">/verb/</label>
+            <input type="text" class="form-control" id="fourth" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col"></div>
+          <div class="col-3 border border-top-0 verbHeading">Irregular</div>
+          <div class="col"></div>
+        </div>
+
+        <div class="row">
+          <div class="col"></div>
+          <!-- irregular verbs -->
+          <div class="col-3 border border-top-0 verbInput" id="conIrr">
+            <label for="irregular" class="">/verb/</label>
+            <input type="text" class="form-control" id="irregular" />
+          </div>
+          <div class="col"></div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <button type="button" class="btn btn-primary" id="check">
+              Check
+            </button>
+            <button type="button" class="btn btn-secondary" id="shuffle">
+              Shuffle
+            </button>
+          </div>
+        </div>
+      </form>
+    </main>
   </body>
 </html>
