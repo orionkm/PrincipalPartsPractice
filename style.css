@@ -1,17 +1,27 @@
+body {
+  color: #50505d;
+}
+
+.lead {
+  color: #87879f;
+}
+
 .instructions {
-  max-width: 500px;
-  text-align: center;
+  color: #87879f;
 }
 
 .verbHeading {
   text-align: center;
   font-weight: bold;
   font-size: 1.5em;
+  background-color: #c7c8e7;
 }
 
 .verbInput {
   height: 150px;
   text-align: center;
+  background-color: #ebedfb;
+  color: #87879f;
 }
 
 .verbInput label {
